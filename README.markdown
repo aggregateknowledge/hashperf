@@ -58,19 +58,19 @@ Run
 * Get the test code source
 
     ```
-      git clone
+      git clone git://github.com/aggregateknowledge/hashperf.git
     ```
 
 * Start the daemons
       
     ```
-      /path/to/redis-server /path/to/UserActivityStoreTestRig/redis.conf
+      /path/to/redis-server /path/to/hashperf/redis.conf
     ```
 
 * Grab dependencies and compile
 
     ```
-      cd UserActivityStoreTestRig
+      cd hashperf
       mvn compile
       mkdir deps
       mvn dependency:copy-dependencies -DoutputDirectory=deps
