@@ -65,6 +65,37 @@
             <scope>system</scope>
             <systemPath>/usr/local/BerkeleyDB.5.2/lib/db.jar</systemPath>
         </dependency>
+        <!-- Hash Table libs -->
+        <dependency>
+            <groupId>it.unimi.dsi</groupId>
+            <artifactId>fastutil</artifactId>
+            <version>6.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>colt</groupId>
+            <artifactId>colt</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.trove4j</groupId>
+            <artifactId>trove4j</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>pcj</groupId>
+            <artifactId>pcj</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.carrotsearch</groupId>
+            <artifactId>hppc</artifactId>
+            <version>0.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.mahout</groupId>
+            <artifactId>mahout-collections</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <!-- ================================================================== -->
