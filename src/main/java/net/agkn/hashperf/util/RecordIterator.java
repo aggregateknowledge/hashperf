@@ -174,4 +174,18 @@ public class RecordIterator {
         System.arraycopy(times, 0, usedTimes, 0, pollPosition);
         return usedTimes;
     }
+
+    /**
+     * Returns the start time.
+     */
+    public long getStart() {
+        return start;
+    }
+
+    /**
+     * Returns the stop time.
+     */
+    public long getStop() {
+        return end;
+    }
 }

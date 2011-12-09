@@ -72,7 +72,7 @@ public class PerformanceTestHarness {
 
                 // write stats to file
                 final long[] polledTimes = iter.getPolledTimes();
-                long lastTime = 0;
+                long lastTime = iter.getStart();
                 for(int j=0; j<polledTimes.length; j++) {
                     final int recordCount = (j + 1) * pollingInterval;
                     final long time = polledTimes[j];
