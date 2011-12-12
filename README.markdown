@@ -1,7 +1,7 @@
 What
 ====
 
-A rig for comparing the performance of various hash tables in Java. Used to produce the results for [this blog post](http://blog.aggregateknowledge.com/2011/11/15/big-memory-part-3/) on hash table 'services' and [this blog post](http://blog.aggregateknowledge.com/2011/12/09/big-memory-part-4/) on Java hash table 'libraries'.
+A rig for comparing the performance of various hash tables in Java. Used to produce the results for [this blog post](http://blog.aggregateknowledge.com/2011/11/15/big-memory-part-3/) on hash table 'services' and [this blog post](http://blog.aggregateknowledge.com/2011/12/12/big-memory-part-4/) on Java hash table 'libraries'.
 
 It's neither the prettiest code, nor a rigorous benchmark. It was written to get a solid feel for the relative performance of these packages for our particular workload. See the links above for more details.
 
