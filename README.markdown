@@ -118,7 +118,7 @@ If you want to run the hash table 'libraries' comparison:
     ```
       mkdir /dev/shm/stats/
       mv data.csv /dev/shm/hash_test.csv
-      java -server -Xmx128g -classpath deps/*:target/classes net.agkn.hashperf.libs.PerformanceTestSuite /dev/shm/hash_test.csv /dev/shm/stats/ 2 2 10000000 976000000
+      java -server -Xmx50g -classpath deps/*:target/classes net.agkn.hashperf.libs.PerformanceTestSuite /dev/shm/hash_test.csv /dev/shm/stats/ 2 2 10000000 976000000
     ```
 
 License
